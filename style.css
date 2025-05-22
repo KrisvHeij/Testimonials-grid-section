@@ -1,7 +1,7 @@
 :root {
   --c-purple-50: hsl(260, 100%, 95%);
   --c-purple-300: hsl(264, 82%, 80%);
-  --c-purple-500: hsl(263, 55%, 52%)
+  --c-purple-500: hsl(263, 55%, 52%);
   --c-white: hsl(0, 0%, 100%);
   --c-grey-100: hsl(214, 17%, 92%);
   --c-grey-200: hsl(0, 0%, 81%);
@@ -15,10 +15,58 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 13px;
   background-color: var(--c-grey-100);
+  padding: 4rem 2rem;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.container {
+  display: grid;
+  gap: 2rem;
+}
+
+.review {
+  background: var(--c-purple-500);
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.review-head {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.review-img {
+  margin-right: 1rem;
+  width: 15%;
+  border: 2px solid;
+}
+
+.review-head-text h2 {
+  font-size: 0.8rem;
+  /* font-weight: var(--fw-600); */
+  margin-bottom: 0.25rem;
+}
+
+.review-head-text p {
+  font-size: 0.7rem;
+}
+
+.review-content p:nth-of-type(1) {
+  font-size: 1.25rem;
+  font-weight: var(--fw-600);
+  margin-bottom: 1rem;
 }
