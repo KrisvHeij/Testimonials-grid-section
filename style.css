@@ -20,4 +20,5 @@
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 13px;
+  background-color: var(--c-grey-100);
 }
