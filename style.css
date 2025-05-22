@@ -9,4 +9,15 @@
   --c-grey-500: hsl(217, 19%, 35%);
   --c-darkblue: hsl(219, 29%, 14%);
   --c-black: hsl(0, 0%, 7%)
+  --fw-500: 500;
+  --fw-600: 600;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 13px;
 }
