@@ -1,3 +1,5 @@
+/* Custom colors/styles */
+
 :root {
   --c-purple-50: hsl(260, 100%, 95%);
   --c-purple-300: hsl(264, 82%, 80%);
@@ -13,7 +15,11 @@
   --fw-600: 600;
 }
 
-* {
+/* Global reset */
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
